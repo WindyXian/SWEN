@@ -2,25 +2,15 @@ C:\Users\KaiXian\Desktop\HotelReport\HotelReport\bin\Debug\HotelReport.exe.confi
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\bin\Debug\HotelReport.exe
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\bin\Debug\HotelReport.pdb
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.csprojResolveAssemblyReference.cache
+C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Form1.resources
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Properties.Resources.resources
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.csproj.GenerateResource.Cache
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.exe
 C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.pdb
-C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.StatusAndOccu.resources
-C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.OccupancyReport.resources
-C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.AllGuestsDate.resources
-C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.HousekeepingReport.resources
-C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Login.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\bin\Debug\HotelReport.exe.config
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.exe
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.pdb
-C:\Users\admin\Desktop\HotelReport\HotelReport\bin\Debug\HotelReport.exe
-C:\Users\admin\Desktop\HotelReport\HotelReport\bin\Debug\HotelReport.pdb
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.csprojResolveAssemblyReference.cache
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.StatusAndOccu.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.OccupancyReport.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.AllGuestsDate.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.HousekeepingReport.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Login.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Properties.Resources.resources
-C:\Users\admin\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.csproj.GenerateResource.Cache
+C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Form2.resources
+C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Form3.resources
+C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Form4.resources
+C:\Users\KaiXian\Desktop\HotelReport\HotelReport\obj\Debug\HotelReport.Form5.resources
+C:\Users\admin\Desktop\IT\Year 3\SWEN\Assignment\Assignment 3\HotelReport\HotelReport\bin\Debug\HotelReport.exe.config
+C:\Users\admin\Desktop\IT\Year 3\SWEN\Assignment\Assignment 3\HotelReport\HotelReport\obj\Debug\HotelReport.exe
+C:\Users\admin\Desktop\IT\Year 3\SWEN\Assignment\Assignment 3\HotelReport\HotelReport\obj\Debug\HotelReport.pdb
