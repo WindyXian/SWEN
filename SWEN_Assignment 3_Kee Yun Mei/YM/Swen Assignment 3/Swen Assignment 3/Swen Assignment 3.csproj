@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E184D0D0-76C9-4A21-8BB6-C51F6DA1C1F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Swen_Assignment_3</RootNamespace>
+    <AssemblyName>Swen Assignment 3</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Schedule.cs" />
+    <Compile Include="Classes\ScheduleDBManager.cs" />
+    <Compile Include="Classes\StaffDBManager.cs" />
+    <Compile Include="Schedule\CreateSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\CreateSchedule.Designer.cs">
+      <DependentUpon>CreateSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseHelper\DatabaseConnectionString.cs" />
+    <Compile Include="DatabaseHelper\DatabaseDeleteQuery.cs" />
+    <Compile Include="DatabaseHelper\DatabaseHelperMain.cs" />
+    <Compile Include="DatabaseHelper\DatabaseHelperSettings.cs" />
+    <Compile Include="DatabaseHelper\DatabaseInsertQuery.cs" />
+    <Compile Include="DatabaseHelper\DatabaseRetriveQuery.cs" />
+    <Compile Include="DatabaseHelper\DatabaseUpdateQuery.cs" />
+    <Compile Include="Schedule\RetrieveSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\RetrieveSchedule.Designer.cs">
+      <DependentUpon>RetrieveSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\UpdateSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\UpdateSchedule.Designer.cs">
+      <DependentUpon>UpdateSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\CreateStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\CreateStaff.Designer.cs">
+      <DependentUpon>CreateStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Staff.cs" />
+    <Compile Include="Staff\RetrieveStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\RetrieveStaff.Designer.cs">
+      <DependentUpon>RetrieveStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\UpdateStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\UpdateStaff.Designer.cs">
+      <DependentUpon>UpdateStaff.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Schedule\CreateSchedule.resx">
+      <DependentUpon>CreateSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\RetrieveSchedule.resx">
+      <DependentUpon>RetrieveSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\UpdateSchedule.resx">
+      <DependentUpon>UpdateSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\CreateStaff.resx">
+      <DependentUpon>CreateStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Staff\RetrieveStaff.resx">
+      <DependentUpon>RetrieveStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\UpdateStaff.resx">
+      <DependentUpon>UpdateStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
